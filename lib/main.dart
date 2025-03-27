@@ -47,7 +47,7 @@ class _SignInPageState extends State<SignInPage> {
         _currentUser = account;
       });
       if (_currentUser != null) {
-        print("User is already authenticated");
+        print("User is already authenticated123");
       }
     });
     _googleSignIn.signInSilently();
