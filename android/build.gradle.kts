@@ -4,11 +4,11 @@ buildscript {
         mavenCentral()
     }
 
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.2' //or your android gradle plugin version.
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0' // or your kotlin version.
-        id("com.google.gms.google-services") version "4.4.2" apply false
-    }
+}
+
+plugins {
+    id("com.google.gms.google-services") version "4.4.2" apply false
+    kotlin("android") version "2.1.0" apply false
 }
 
 allprojects {

@@ -128,7 +128,7 @@ class _SignInPageState extends State<SignInPage> {
           ),
           SizedBox(height: 30),
           Center(
-            child: Container(
+            child: SizedBox(
               width: 250,
               child: ElevatedButton(
                 onPressed: handleSignIn,
